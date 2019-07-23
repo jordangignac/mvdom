@@ -1,0 +1,23 @@
+{
+  "name": "bbdom",
+  "amdName": "bbdom",
+  "version": "0.0.1",
+  "description": "minimal vdom implementation",
+  "author": "Jordan Gignac <jordangdevelop@gmail.com>",
+  "module": "dist/bbdom.module.js",
+  "unpkg": "dist/bbdom.umd.js",
+  "types": "dist/source.d.ts",
+  "main": "dist/bbdom.js",
+  "source": "source.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "devDependencies": {
+    "microbundle": "^0.11.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
